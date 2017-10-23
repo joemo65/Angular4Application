@@ -3,13 +3,17 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12">
-                        <h2>Example 1: model binding</h3>
+                        <h2>Example 1: model binding</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 offset-md-4">
-                    <input type="text" [(ngModel)]="name"/>
-                    <p>{{exampleText}}</p>
+                <div class="col-md-3">
+                    <span>input: </span>
+                    <input type="text" [(ngModel)]="exampleText"/>
+                </div>
+                <div class="col-md-9">
+                    <span>output:</span>
+                    <span>{{exampleText}}</span>
                 </div>
             </div>
         </div>
